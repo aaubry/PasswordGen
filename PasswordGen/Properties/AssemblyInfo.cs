@@ -1,4 +1,21 @@
-﻿using System.Reflection;
+﻿// Copyright 2010 Antoine Aubry
+// 
+// This file is part of PasswordGen.
+// 
+// PasswordGen is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// PasswordGen is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+// 
+// You should have received a copy of the GNU General Public License
+// along with PasswordGen. If not, see <http://www.gnu.org/licenses/>.
+
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
@@ -6,11 +23,28 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("PasswordGen")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription(@"
+PasswordGen - a secure password generator.
+
+Copyright 2010 Antoine Aubry
+
+PasswordGen is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+PasswordGen is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with PasswordGen. If not, see <http://www.gnu.org/licenses/>.
+")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HERETIK Coding")]
+[assembly: AssemblyCompany("Antoine Aubry")]
 [assembly: AssemblyProduct("PasswordGen")]
-[assembly: AssemblyCopyright("Copyright © HERETIK Coding 2006")]
+[assembly: AssemblyCopyright("Copyright 2010 Antoine Aubry")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

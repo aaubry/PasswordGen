@@ -1,3 +1,20 @@
+// Copyright 2010 Antoine Aubry
+// 
+// This file is part of PasswordGen.
+// 
+// PasswordGen is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// PasswordGen is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+// 
+// You should have received a copy of the GNU General Public License
+// along with PasswordGen. If not, see <http://www.gnu.org/licenses/>.
+
 using System;
 using System.Collections.Generic;
 using System.Security.Cryptography;
@@ -8,6 +25,11 @@ namespace PasswordGen {
 	public class Program {
 		public static void Main(string[] args) {
 			const string defaultAlphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!*#%$&";
+
+			Console.WriteLine("PasswordGen  Copyright (C) 2010 Antoine Aubry");
+			Console.WriteLine("This program comes with ABSOLUTELY NO WARRANTY.");
+			Console.WriteLine("This is free software, and you are welcome to redistribute it under certain conditions.");
+			Console.WriteLine();
 
 			if(args.Length == 0)
 			{
